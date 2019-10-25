@@ -1,0 +1,890 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bricktowerstyle.css" />
+    <link rel="stylesheet" href="./fonts/fonts/fonts.css" />
+    <script src="bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(window).scroll(function(event) {
+          let scroll = $(this).scrollTop();
+          let opacity = 1 - scroll / 10000;
+          if (opacity >= 0) {
+            $(".navigation").css("opacity", opacity);
+          }
+        });
+      });
+    </script>
+    <script>
+    $('ul.navbar-nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+    </script>
+  
+  </head>
+
+  <body>
+    <div class="container-fluid bg-dark">
+      <div class="container  pl-5 text-white p-3">
+        <div class="row d-flex align-items-center ">
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="small-text">
+              We Are Specialists In Construction And Architecture!
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 ">
+            <div class="row small-text pl-4 ">
+              <div class=" pr-2 ">
+                <i
+                  class="fas fa-phone fa-flip-horizontal text-warning pl-1"
+                ></i>
+                (+1) 115 221 2564
+              </div>
+              <div class="    ">
+                <i class="fas fa-envelope text-warning pl-1"> </i>
+                info@example.com
+              </div>
+
+              <div class="    pl-2 p-0">
+                <i class="fas fa-map-marker-alt text-warning pl-1"></i>
+                Building Cror, New York, NY 93459
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------END-------->
+    <div class="container-fluid bg-white mt-3 mb-3  pr-2 pl-2 navigation">
+      <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div>
+            <img src="image1.jpg" />
+          </div>
+          <div>
+            <b class="bricktower">BRICKTOWER</b>
+            <br />
+            <label class="highquality">High Quality Construction</label>
+          </div>
+
+          <button
+            class="navbar-toggler  "
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto  ">
+              <li class="nav-item">
+                <a class="nav-link text-dark pb-5" href="#"><b>HOME</b> </a>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="nav-link   text-dark pb-5"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                   
+                  ><b>SERVICES</b></a
+                >
+                <div
+                  class="dropdown-menu  mt-5"
+                  aria-labelledby="navbarDropdown"
+                   
+                >
+                  <a class="dropdown-item" href="#"><b>SERVICE 1</b></a>
+                  <a class="dropdown-item" href="#"><b>SERVICE 2</b></a>
+                  <a class="dropdown-item" href="#"><b>SERVICE 3</b></a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link   text-dark pb-5"
+                  href="#"
+                  id="navbarDropdown2"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <b>PROJECTS</b>
+                </a>
+                <div
+                  class="dropdown-menu mt-5"
+                  aria-labelledby="navbarDropdown2"
+                >
+                <a class="dropdown-item" href="#"><b>PROJECT 1</b></a>
+                <a class="dropdown-item" href="#"><b>PROJECT 2</b></a>
+                <a class="dropdown-item" href="#"><b>PROJECT 3</b></a>
+                <a class="dropdown-item" href="#"><b>PROJECT 4</b></a>
+                <a class="dropdown-item" href="#"><b>PROJECT 5</b></a>
+                 
+                </div>
+              </li>
+              <li class="nav-item dropdown ">
+                <a
+                  class="nav-link   text-dark pb-5"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <b>ABOUT</b></a
+                >
+              
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link   text-dark pb-5"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <b>SHOP</b>
+                </a>
+                <div
+                  class="dropdown-menu mt-5"
+                  aria-labelledby="navbarDropdown3"
+                >
+                <a class="dropdown-item" href="#"><b>SHOP 1</b></a>
+                <a class="dropdown-item" href="#"><b>SHOP 2</b></a>
+                <a class="dropdown-item" href="#"><b>SHOP 3</b></a>
+                <a class="dropdown-item" href="#"><b>SHOP 4</b></a>
+                
+                 
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark pb-5 " href="#"><b>CONTACT US</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link   text-dark pb-5"
+                  href="#"
+                  id="navbarDropdown4"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <b>BLOG</b>
+                </a>
+                <div
+                  class="dropdown-menu mt-5"
+                  aria-labelledby="navbarDropdown4"
+                >
+                <a class="dropdown-item" href="#"><b>BLOG 1</b></a>
+                <a class="dropdown-item" href="#"><b>BLOG 2</b></a>
+
+                </div>
+              </li>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-----END---->
+    <div class="container-fluid overflow-hidden">
+      <div class="row">
+        <div>
+          <div
+            class="position-relative d-flex align-items-center justify-content-center  "
+          >
+            <div class=" mt-2 position-absolute text-center text-white">
+              <h1>OUR SERVICES</h1>
+              <p>HOME /<label class="text-warning pl-1"> SERVICES</label></p>
+            </div>
+            <img src="ourservices.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------END-->
+    <div class="container text-center ">
+      <div class="row mt-3 pt-5  pb-5">
+        <div class="col-12 col-md-12  ">
+          <h4 class="text-dark">OUR SERVICES TRENDS!</h4>
+          <hr class="line" />
+        </div>
+      </div>
+
+      <div
+        id="horiz-item-example"
+        class="carousel slide carousel-multi-item"
+        data-ride="carousel"
+      >
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-center p-5">
+               <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute  text-white pb-3">
+                    <p><i class="fal fa-pencil-ruler fa-2x text-warning"></i></p>
+                    <p class="headersize">ARCHITECTURE</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="arch.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+           
+              <div class="col-md-4  col-8 hoverup   p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-tape fa-2x text-warning"></i></p>
+                    <p class="headersize">CONSTRUCTION</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="manager.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4  col-8  hoverup   p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-building fa-2x text-warning"></i></p>
+                    <p class="headersize">BUILDING MAINTENANCE</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="building.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIRST SLIDE END-->
+          <!---SECOND SLIDE-->
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center p-5">
+              <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-palette fa-2x text-warning"></i></p>
+                    <p class="headersize">WALL PAINT</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="wall.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-puzzle-piece fa-2x text-warning"></i></p>
+                    <p class="headersize">HARDWOOD FLOORING</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="hardwood.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-swimming-pool fa-2x text-warning"></i></p>
+                    <p class="headersize">POOL CLEANING</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="pool.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!---SECOND SLIDE END-->
+          <!--- THIRD SLIDE-->
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center p-5">
+              <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-people-carry fa-2x text-warning"></i></p>
+                    <p class="headersize">REFURBISHMENT</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="refur.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4  col-8  hoverup  p-0">
+                <div
+                  class="position-relative imagemove  d-flex  align-items-end p-1"
+                >
+                  <div class="position-absolute    text-white pb-3">
+                    <p><i class="fal fa-bolt fa-2x text-warning"></i></p>
+                    <p class="headersize">ELECTRICAL</p>
+                    <p class="small-text">
+                      Quisque tempor est, quis efficitur ante egestas at.Aliquam
+                      sit amet erat quis nisi suscipit the iaculis.
+                    </p>
+                  </div>
+                  <img src="electrical.jpg" class=" mb-4" />
+                </div>
+                <div class=" mb-3">
+                  <button
+                    type="button"
+                    class="readmore pl-4 pr-4 pt-2 pb-2 bordered  "
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--- THIRD SLIDE END-->
+          <a
+          class="carousel-control-prev  mr-5 pr-5"
+          href="#horiz-item-example"
+          role="button"
+          data-slide="prev"
+        >
+          <i class="far  far fa-arrow-left fa-lg text-dark  mr-5 pr-5"></i>
+        </a>
+        <a
+          class="carousel-control-next ml-5 pl-5"
+          href="#horiz-item-example"
+          role="button"
+          data-slide="next"
+        >
+          <i class=" far fa-arrow-right fa-lg  text-dark ml-5 pl-5"></i>
+        </a>
+        </div>
+       
+      </div>
+    </div>
+
+    <!---END-->
+    <div class="container-fluid bg-light">
+      <div class="container mt-5 pt-5 pb-5">
+        <div class="row justify-content-center pl-5 pr-5">
+          <div class="col-md-3 col-6 p-4">
+            <div class="row">
+              <div class="col-3 p-0">
+                <img src="icon-people.png" class=" img-fluid" />
+              </div>
+              <div class="col-9">
+                <h4 class="text-warning"><b>10+</b></h4>
+                <div class="hovereffect">Years Experience</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 p-4">
+            <div class="row">
+              <div class="col-3 p-0">
+                <img src="icon-door.png" class=" img-fluid" />
+              </div>
+              <div class="col-9">
+                <h4 class="text-warning"><b>600+</b></h4>
+                <div class="hovereffect">Completed Projects</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 p-4">
+            <div class="row">
+              <div class="col-3 p-0">
+                <img src="icon-cup.png" class=" img-fluid" />
+              </div>
+              <div class="col-9">
+                <h4 class="text-warning"><b>15+</b></h4>
+                <div class="hovereffect">Awards Received</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-6 p-4">
+            <div class="row">
+              <div class="col-3 p-0">
+                <img src="icon-heart.png" class=" img-fluid" />
+              </div>
+              <div class="col-9">
+                <h4 class="text-warning"><b>2000+</b></h4>
+                <div class="hovereffect">Satisfied Clients</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----END----->
+    <div class="container-fluid">
+      <div class="container mt-5 pt-5 mb-5 pb-5">
+        <div class="row d-flex justify-content-center mb-5">
+          <div>
+            <h4 class="text-dark">OUR SERVICES</h4>
+            <hr class="line" />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center pr-5 pl-5">
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3 ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="arch.jpg" />
+            </div>
+            <p class="headersize">ARCHITECTURE</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white"
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3  ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="building.jpg" />
+            </div>
+            <p class="headersize">BUILDING MAINTENANCE</p>
+            <p class="small-text  ">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white"
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3  ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="manager.jpg" />
+            </div>
+            <p class="headersize">CONSTRUCTION MANAGER</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white "
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3   ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="wall.jpg" />
+            </div>
+            <p class="headersize">WALL PAINT</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white "
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row d-flex justify-content-center text-center mt-5 pr-5 pl-5"
+        >
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3 ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="hardwood.jpg" />
+            </div>
+            <p class="headersize">HARDWOOD FLOORING</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white"
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3 ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="pool.jpg" />
+            </div>
+
+            <p class="headersize">POOL CLEANING</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white "
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3 ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="refur.jpg" />
+            </div>
+            <p class="headersize">REFURBISHMENT</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class="mb-3 ">
+              <button
+                type="button"
+                class=" hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white"
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3  col-lg-3 col-xl-3 ">
+            <div
+              class="position-relative hoverimage d-flex align-items-center justify-content-center mb-4"
+            >
+              <div class="position-absolute plus">
+                <i class="fas fa-plus"></i>
+              </div>
+              <img src="electrical.jpg" />
+            </div>
+            <p class="headersize">ELECTRICAL</p>
+            <p class="small-text">
+              Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+              amet erat quis nisi suscipit the iaculis.
+            </p>
+
+            <div class=" mb-3">
+              <button
+                type="button"
+                class="hoverread pl-4 pr-4 pt-2 pb-2 border-0 bg-white"
+              >
+                <b> Read More</b>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----END=-->
+
+    <div class="container-fluid mt-5 bg-light p-3">
+      <div class="container ">
+        <div class="row ">
+          <div class="col-6 col-md-3 p-5">
+            <img src="logo1.png" />
+          </div>
+          <div class="col-6 col-md-3 p-5">
+            <img src="logo2.png" />
+          </div>
+          <div class="col-6 col-md-3 p-5">
+            <img src="logo3.png" />
+          </div>
+          <div class="col-6 col-md-3 p-5">
+            <img src="logo4.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------END--------->
+
+    <div class="container-fluid">
+      <div class="container pl-5 pr-5  mt-5 mb-5 footertext">
+        <div class="row d-flex justify-content-center  ">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-3">
+            <div class="row">
+              <div class="col-3  p-0  ">
+                <img src="image1.jpg" />
+              </div>
+              <div class="col-9 p-0">
+                <b class="bricktower">BRICKTOWER</b>
+                <br />
+                <label class="highquality">High Quality Construction</label>
+              </div>
+            </div>
+            <div class="row hoverzoom">
+              <div class="col-12  ">
+                Quisque tempor est, quis efficitur ante egestas at.Aliquam sit
+                amet erat quis nisi suscipit the iaculis.
+                <p class="mt-5 ">
+                  <a href="#"> <i class="fab fa-facebook-f "></i></a>
+                  <a href="#"> <i class="fab fa-google-plus-g pl-3"></i></a>
+                  <a href="#"> <i class="fab fa-twitter pl-3"></i></a>
+                  <a href="#"> <i class="fab fa-behance pl-3"></i></a>
+                  <a href="#"> <i class="fab fa-linkedin-in pl-3"></i></a>
+                  <a href="#"> <i class="fab fa-drupal pl-3"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-3 mt-2">
+            <h5>USEFUL LINKS</h5>
+            <div class="row hoverbold mt-4">
+              <div class="col-6">
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#">Projects</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Shop</a></p>
+              </div>
+              <div class="col-6">
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">FAQ</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6  col-xl-3 mt-2">
+            <h5>CONTACT US</h5>
+            <div class="row mt-4">
+              <div class="col-12 ">
+                <p>
+                  <i
+                    class="fas fa-phone fa-flip-horizontal  text-warning p-1  "
+                  ></i>
+                  Call Us +1 (855) 203-5485
+                </p>
+                <p>
+                  <i class="fas fa-phone-square  text-warning p-1"></i> +1 (855)
+                  203-5485
+                </p>
+                <p>
+                  <i class="fas fa-envelope   text-warning p-1"></i>
+                  info@example.com
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt   text-warning p-1"></i>
+                  Building Cror,New York,NY 93459
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6  col-xl-3 mt-2">
+            <h5>WORKING HOURS</h5>
+            <p class="mt-3">
+              Our support available to help 24 hours a day, seven days a week.
+            </p>
+            <div class="row d-flex align-items-center ">
+              <div class="col-6 text-left">
+                <div class="pb-2">Monday-Friday:</div>
+                <div class="pb-2">Saturday:</div>
+                <div>Sunday:</div>
+              </div>
+              <div class="col-6 text-right">
+                <div class="pb-2"><b>9am to 5pm</b></div>
+                <div class="pb-2"><b>10am to 2pm</b></div>
+                <div><b>Closed</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------END-->
+    <div class="container-fluid bg-dark text-secondary   ">
+      <div class="container pl-5 pr-5 pt-3 pb-3 footertext">
+        <div class="row d-flex align-items-center ">
+          <div class="col-8">
+            <div>
+              Copyright &copy; 2018 Construction Theme Demo - Theme by
+              <a href="#" class="text-warning"><span>AuThemes</span></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <a href="#" class="p-1"> <span>Our Services</span> </a
+            ><a href="#" class="p-1">
+              <span>Projects</span>
+            </a>
+            <a href="#" class="p-1">
+              <span>Contact Us</span>
+            </a>
+            <a href="#" class="p-1">
+              <span>Privacy Policy</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
