@@ -1,2 +1,4 @@
-# WEB DESIGN AND DEVELOPMENT STUDIO
+<p align="center">
+  <img src="maxstudiotheme.png">
+  </p>
 
