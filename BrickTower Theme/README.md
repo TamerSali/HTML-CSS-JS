@@ -1,2 +1,8 @@
+
+<p align="center">
+<img src="images/image1.jpg"/>
+</p>
 # Theme
-![](images/theme%image.jpg)
+<p align="center">
+<img src="images/theme image.png"/>
+</p>
