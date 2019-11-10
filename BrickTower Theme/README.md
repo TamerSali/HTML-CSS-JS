@@ -1,2 +1,2 @@
-# Portfolio
-Portfolio
+# Theme
+<img src="images/theme image.jpg/>
