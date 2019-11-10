@@ -1,4 +1,4 @@
 <p align="center">
-  <img src="images/maxstudiotheme.png">
+  <img src="Images/maxstudiotheme.png">
   </p>
 
