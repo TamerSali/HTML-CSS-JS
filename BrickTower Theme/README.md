@@ -1,2 +1,2 @@
 # Theme
-<img src="images/theme image.jpg/>
+![](images/theme%image.jpg)
