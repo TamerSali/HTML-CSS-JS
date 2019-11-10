@@ -1,0 +1,1947 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="max.css" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAX STUDIO.</title>
+    <script src="bootstrap.bundle.min.js"></script>
+   
+
+    <script>
+      $(document).ready(function() {
+        $(".navbar-collapse .navbar-nav .nav-item").click(function() {
+          $(".navbar-collapse .navbar-nav .nav-item").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+   
+    
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+          <div class="container">
+            <a class="navbar-brand">
+              <h5>Max Studio.</h5>
+            </a>
+            <button
+              class="navbar-toggler p-1"
+              type="button"
+              data-toggle="collapse"
+              0
+              data-target="#navbarResponsive"
+              aria-controls="navbarResponsive"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active pl-3">
+                  <!--here home is clicked-->
+                  <a class="nav-link" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#whatwedo">What We Do</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#latestworks">Latest Works</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#pages">Pages</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a class="nav-link" href="#contactus">Contact Us</a>
+                </li>
+                <li class="nav-item pl-3">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    |
+                    <i class="fa fa-search pl-3"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--- MODAL-->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  X
+                </button>
+              </div>
+              <div class="modal-body">
+                <section class="search-box1">
+                  <div class="container">
+                    <form class="form-inline" role="form">
+                      <div class="row">
+                        <div
+                          class="col-sm-8 col-8 form-group"
+                          style="padding-right:0px;"
+                        >
+                          <input
+                            type="text"
+                            class="form-control search-wrap"
+                            id="search"
+                            placeholder="Search here..."
+                          />
+                        </div>
+                        <div
+                          class="col-sm-4 col-4 form-group"
+                          style="padding-left:0px;"
+                        >
+                          <button
+                            type="submit"
+                            class="btn btn-default search-btn"
+                          >
+                            SEARCH
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----MODAL END-->
+      </div>
+    </div>
+    <header>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="false"
+      >
+        <ol class="carousel-indicators">
+          <img src="Images/mouse.svg" class="mouse img-fluid" />
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One  -->
+          <div
+            class="carousel-item active"
+            style="background:url(Images/design-header.jpg);background-size:cover;"
+          >
+            <div class="container text-center  slideone mt-5 pt-5 pb-5 mb-5">
+              <div class="row  mt-5  mb-5 pt-5 pl-5 pr-5">
+                <div class="col-xl-12 col-sm-12 col-12 ">
+                  <h6 class="text-white">
+                    CREATIVE WEB DESIGNS AND DEVELOPMENT STUDIO
+                  </h6>
+                </div>
+
+                <div class="col-xl-12 col-sm-12 col-12 mt-2 ">
+                  <h2 class="display-3 text-white">
+                    Max &nbsp<label class="text-warning">Studio.</label>
+                  </h2>
+                </div>
+
+                <div class="col-xl-12  col-sm-12 col-12 mt-2 pb-5 text-white">
+                  <div class="col-xl-12 col-md-12 col-12 col-sm-12 col-lg-12">
+                    Come and listen to a story about a man named Jed a poor
+                    mountaineer barely kept his family fed.Baby if you've ever
+                    wondered whatever became of me.
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-12">
+                  <button
+                    class="button pt-3 pb-3 pl-5 pr-5 text-white border border-white "
+                  >
+                    READ MORE <i class="fal fa-angle-right fa-lg pl-4"></i>
+                  </button>
+
+                  &nbsp
+                  <div class="pb-3 d-xl-none d-lg-none d-md-none"></div>
+                  <button
+                    class="button2 pt-3 pb-3 pl-5 pr-5 text-white bg-warning border-0"
+                  >
+                    VIEW OUR WORKS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide Two -->
+          <div
+            class="carousel-item"
+            style="background:url(Images/second.png);background-size:cover;"
+          >
+            <div
+              class="container text-center  mt-5 pt-5 pb-5 mb-5"
+              id="slidetwo"
+            >
+              <div class="row  mt-5  mb-5 pt-5 pl-5 pr-5">
+                <div class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12 ">
+                  <h6 class="text-white">
+                    CREATIVE WEB DESIGNS AND DEVELOPMENT STUDIO
+                  </h6>
+                </div>
+                <div
+                  class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12 mt-2 "
+                >
+                  <h2 class="display-3 text-white">
+                    Max &nbsp<label class="text-warning">Studio.</label>
+                  </h2>
+                </div>
+
+                <div
+                  class="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-12 mt-2 pb-5 text-white"
+                >
+                  <div class="col-xl-12 col-md-12 col-12 col-sm-12 col-lg-12">
+                    Come and listen to a story about a man named Jed a poor
+                    mountaineer barely kept his family fed.Baby if you've ever
+                    wondered whatever became of me.
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-12">
+                  <button
+                    class="button pt-3 pb-3 pl-5 pr-5 text-white border border-white "
+                  >
+                    READ MORE <i class="fal fa-angle-right fa-lg pl-3"></i>
+                  </button>
+
+                  &nbsp
+                  <div class="pb-3 d-xl-none d-lg-none d-md-none"></div>
+                  <button
+                    class="button2 pt-3 pb-3 pl-5 pr-5 text-white bg-warning border-0"
+                  >
+                    VIEW OUR WORKS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide Three -->
+          <div
+            class="carousel-item"
+            style="background:url(Images/third.jpg);background-size:cover;"
+          >
+            <div class="container text-center slidethree mt-5 pt-5 pb-5 mb-5">
+              <div class="row  mt-5 mb-5 pt-5 pl-5 pr-5">
+                <div class="col-xl-12 col-sm-12 col-12 ">
+                  <h6 class="text-white">
+                    CREATIVE WEB DESIGNS AND DEVELOPMENT STUDIO
+                  </h6>
+                </div>
+
+                <div class="col-xl-12 col-sm-12 col-12 mt-2 ">
+                  <h2 class="display-3 text-white">
+                    Max &nbsp<label class="text-warning">Studio.</label>
+                  </h2>
+                </div>
+
+                <div
+                  class="col-xl-12  col-md-12 col-sm-12 col-12 mt-2 pb-5 text-white"
+                >
+                  <div class="col-xl-12 col-md-12 col-12 col-sm-12 col-lg-12">
+                    Come and listen to a story about a man named Jed a poor
+                    mountaineer barely kept his family fed.Baby if you've ever
+                    wondered whatever became of me.
+                  </div>
+                </div>
+
+                <div class="col-md-12 col-12">
+                  <button
+                    class="button pt-3 pb-3 pl-5 pr-5 text-white border border-white "
+                  >
+                    READ MORE <i class="fal fa-angle-right fa-lg pl-3"></i>
+                  </button>
+
+                  &nbsp
+                  <div class="pb-3 d-xl-none d-lg-none d-md-none"></div>
+                  <button
+                    class="button2 pt-3 pb-3 pl-5 pr-5 text-white bg-warning border-0"
+                  >
+                    VIEW OUR WORKS
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev pb-5"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          
+          <div
+            class=" col-2 col-xl-6  col-md-6 col-lg-6 text-white prevnext d-none d-md-block "
+          >
+            <div class="prevnext1 pt-1 pb-1  pl-3 pr-3">
+              <div>PR</div>
+              <div>EV</div>
+            </div>
+          </div>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next pb-5"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+          id="next"
+        >
+<div class="col-xl-6   col-md-2 col-lg-6  col-2 d-none d-md-block">
+            <div class="prevnext1 pt-1 pb-1 pl-3  pr-3">
+              <div>NE</div>
+              <div>XT</div>
+            </div>
+          </div>
+          
+
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-------------------------->
+    <div class="container-fluid bg-light pb-5 pt-5" id="about">
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-xl-12 text-center">
+            <h4>About Our <b>Studio</b></h4>
+            <p class="who">Who We Are</p>
+          </div>
+        </div>
+        <div class="row mt-5 ml-5 mr-5 text-center">
+          <div class="col-md-4 col-xl-4 col-md-4 col-sm-4 col-lg-4 col-12 mb-5">
+            <a href="#" data-toggle="modal" data-target="#imgmodal">
+              <div
+                class="zoom position-relative d-flex align-items-center justify-content-center mb-3"
+              >
+                <div class="expand  position-absolute">
+                  <i
+                    class="fal fa-expand-alt fa-lg p-1 bg-white text-warning "
+                  ></i>
+                </div>
+                <img src="Images/circle1.jpg" class="img-fluid rounded-circle" />
+              </div>
+            </a>
+
+            <h4><b>Made With Love</b></h4>
+            <p class="blur-text">
+              So join us here each week my friends you're sure to get a smile
+              from seven stranded costaways here on Gilligans Isle.
+            </p>
+            <button class="button pt-2 pb-2 pl-4 pr-4 ">
+              READ MORE <i class="fal fa-angle-right fa-lg pl-2"></i>
+            </button>
+          </div>
+          <div class="col-md-4 col-xl-4 col-md-4 col-lg-4 col-sm-4 col-12 mb-5">
+            <a href="#" data-toggle="modal" data-target="#imgmodal2">
+              <div
+                class="zoom position-relative d-flex align-items-center justify-content-center mb-3"
+              >
+                <div class="expand  position-absolute">
+                  <i
+                    class="fal fa-expand-alt fa-lg p-1 bg-white text-warning"
+                  ></i>
+                </div>
+                <img src="Images/circle2.jpg" class="img-fluid rounded-circle" />
+              </div>
+            </a>
+
+            <h4><b>Unique Design</b></h4>
+            <p class="blur-text">
+              The Love Boat soon will be making another run.The Love Boat
+              promises something for everyone, the world right for some.
+            </p>
+            <button class=" button  orangeread pt-2 pb-2 pl-4 pr-4  ">
+              READ MORE <i class="fal fa-angle-right fa-lg pl-2"></i>
+            </button>
+          </div>
+          <div class="col-md-4 col-sm-4 col-12 ">
+            <a href="#" data-toggle="modal" data-target="#imgmodal3">
+              <div
+                class="zoom position-relative d-flex align-items-center justify-content-center mb-3"
+              >
+                <div class="expand  position-absolute">
+                  <i
+                    class="fal fa-expand-alt fa-lg p-1 bg-white text-warning"
+                  ></i>
+                </div>
+                <img src="Images/circle3.png" class="img-fluid rounded-circle" />
+              </div>
+            </a>
+
+            <h4><b>Support Design</b></h4>
+            <p class="blur-text">
+              Believe it or not I'm walking on air.I never thought I could feel
+              so free.Flying away on a wing and a prayer.
+            </p>
+            <button class=" button pt-2 pb-2 pl-4 pr-4 ">
+              READ MORE <i class="fal fa-angle-right  fa-lg pl-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- IMAGES MODAL-->
+    
+      <div id="imgmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-md-12 col-12 col-sm-12 mx-auto my-auto">
+              <img src="Images/ircle1.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="imgmodal2" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-dialog-centered ">
+              <div class="container">
+              <div class="row">
+                <div class="col-xl-12 col-md-12 col-12 col-sm-12 mx-auto my-auto">
+                  <img src="Images/circle2.jpg" />
+                </div>
+              </div>
+            
+            </div>
+          </div>
+      </div>
+      <div id="imgmodal3" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-dialog-centered ">
+              <div class="container">
+              <div class="row">
+                <div class="col-xl-12 col-md-12 col-12 col-sm-12 mx-auto my-auto">
+                  <img src="Images/circle3.png" />
+                </div>
+              </div>
+            
+            </div>
+          </div>
+      </div>
+    
+
+    <!-------------------------->
+    <div class="container-fluid" id="whatwedo">
+      <div class="container mt-5 mb-5 pt-5 pb-5">
+        <div class="row mb-5">
+          <div class="col-xl-12 col-12 col-sm-12 col-md-12 text-center">
+            <h4>The Best <b>Services</b></h4>
+            <p class="our">Our Features</p>
+          </div>
+        </div>
+        <div class="row ml-5 mr-5">
+          <div
+            class="col-xl-4 col-12 col-sm-12 col-md-5 col-lg-4 text-right pr-5
+            pt-2"
+          >
+            <div class="row">
+              <div class="col-xl-10 col-lg-10 col-md-10 col-10 col-sm-10">
+                <p><b>Branding</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+              <div class="col-xl-2 col-md-2 col-sm-2 col-2 col-lg-2">
+                <i class="fal fa-desktop fa-lg circle"></i>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-xl-10 col-sm-10 col-10 col-md-10 col-lg-10">
+                <p><b>Perfect Design</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+              <div class="col-xl-2 col-2 col-sm-2 col-md-2 col-lg-2 mt-2">
+                <i class="fal fa-magnet fa-lg circle"></i>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-xl-10 col-md-10 col-10 col-sm-10 col-lg-10">
+                <p><b>Awsome Coding</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+              <div class="col-xl-2 col-2 col-sm-2 col-md-2 col-lg-2 mt-2">
+                <i class="fal fa-trophy fa-lg circle"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-12 col-sm-12 col-md-2  mb-2 p-0">
+            <img
+              src="Images/background.png"
+              class="img-fluid verticalimage2 d-none d-md-block"
+              alt=""
+            />
+
+            <hr class="d-block d-md-none" />
+          </div>
+          <div
+            class="col-xl-4 col-md-5 col-12 col-sm-12 col-lg-4 text-left pl-5
+            pt-2"
+          >
+            <div class="row">
+              <div class="col-xl-2 col-md-2 col-3 col-sm-3 col-lg-2 pl-1">
+                <i class="fal fa-glasses fa-lg circle"></i>
+              </div>
+              <div class="col-xl-10 col-9 col-sm-9 col-md-10 col-lg-10">
+                <p><b>Perfect View</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-xl-2 col-md-2 col-3 col-sm-2 col-lg-2 pl-1">
+                <i class="fal fa-video fa-lg circle"></i>
+              </div>
+              <div class="col-xl-10 col-sm-10 col-9 col-md-10 col-lg-10">
+                <p><b>Video Production</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-xl-2 col-md-2 col-sm-3 col-3 col-lg-2 pl-1">
+                <i class="fal fa-folder-open fa-lg circle"></i>
+              </div>
+              <div class="col-xl-10 col-sm-9 col-9 col-md-10 col-lg-10">
+                <p><b>Development</b></p>
+                <p>
+                  You wanna be where you can see Just sit right back and you
+                  tale of a fateful tripour
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------->
+    <div class="container-fluid orange-con">
+      <div class="container mt-5 mb-5 pt-5 pb-5">
+        <div class="row text-center mt-5 mb-5 ml-5 mr-5">
+          <div class="col-xl-3 col-md-6 col-lg-3 col-sm-12 col-12 mb-4">
+            <div class="progress one mb-2 ">
+              <span class="progress-left pb-1">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">75%</div>
+            </div>
+            <b>Photoshop</b>
+          </div>
+          <div class="col-xl-3 col-md-6 col-lg-3 col-sm-12 col-12 mb-4">
+            <div class="progress two mb-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">69%</div>
+            </div>
+            <b>CSS</b>
+          </div>
+          <div class="col-xl-3 col-md-6 col-lg-3 col-sm-12 col-12 mb-4">
+            <div class="progress three mb-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">90%</div>
+            </div>
+            <b>Developing</b>
+          </div>
+          <div class="col-xl-3 col-md-6 col-lg-3 col-sm-12 col-12 mb-4">
+            <div class="progress four mb-2">
+              <span class="progress-left">
+                <span class="progress-bar"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar"></span>
+              </span>
+              <div class="progress-value">85%</div>
+            </div>
+            <b>Wordpress</b>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------->
+    <div class="container-fluid" id="latestworks">
+      <div class="container pt-4 pb-2">
+        <div class="row mt-5">
+          <div class="col-xl-12 col-12 col-sm-12 col-md-12 text-center">
+            <h4>Recent <b>Works.</b></h4>
+            <p class="our">Our Portfolio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------->
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-sm-4 img-6 mockup d-flex align-items-center justify-content-center"
+        >
+          <div class="mockupposition   text-center  ">
+            <div>
+              <h5><b>Mockup Design</b></h5>
+            </div>
+            <hr class="bg-white mockuphr" />
+            <a href="#" class="text-dark">
+              <i class="fal fa-link mocksq rounded fa-lg"></i>
+            </a>
+            <a href="#" class="text-dark pl-3">
+              <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-8 ">
+          <div class="row">
+            <div
+              class="col-sm-4 img-1 mockup d-flex align-items-center justify-content-center"
+            >
+              <div class="mockupposition  text-center">
+                <div>
+                  <h5><b>Mockup Design</b></h5>
+                </div>
+                <hr class="bg-white mockuphr" />
+                <a href="#" class="text-dark">
+                  <i class="fal fa-link mocksq rounded fa-lg"></i>
+                </a>
+                <a href="#" class="text-dark pl-3">
+                  <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-sm-4 img-1 mockup d-flex align-items-center justify-content-center"
+            >
+              <div class="mockupposition  text-center  ">
+                <div>
+                  <h5><b>Mockup Design</b></h5>
+                </div>
+                <hr class="bg-white mockuphr" />
+                <a href="#" class="text-dark">
+                  <i class="fal fa-link mocksq rounded fa-lg"></i>
+                </a>
+                <a href="#" class="text-dark pl-3">
+                  <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-sm-4 img-1 mockup d-flex align-items-center justify-content-center"
+            >
+              <div class="mockupposition   text-center  ">
+                <div>
+                  <h5><b>Mockup Design</b></h5>
+                </div>
+                <hr class="bg-white mockuphr" />
+                <a href="#" class="text-dark">
+                  <i class="fal fa-link mocksq rounded fa-lg"></i>
+                </a>
+                <a href="#" class="text-dark pl-3">
+                  <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-sm-4 img-1 mockup d-flex align-items-center justify-content-center"
+            >
+              <div class="mockupposition  text-center  ">
+                <div>
+                  <h5><b>Mockup Design</b></h5>
+                </div>
+                <hr class="bg-white mockuphr" />
+                <a href="#" class="text-dark">
+                  <i class="fal fa-link mocksq rounded fa-lg"></i>
+                </a>
+                <a href="#" class="text-dark pl-3">
+                  <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-sm-8 img-2 mockup d-flex align-items-center justify-content-center"
+            >
+              <div class="mockupposition text-center  ">
+                <div>
+                  <h5><b>Mockup Design</b></h5>
+                </div>
+                <hr class="bg-white mockuphr" />
+                <a href="#" class="text-dark">
+                  <i class="fal fa-link mocksq rounded fa-lg"></i>
+                </a>
+                <a href="#" class="text-dark pl-3">
+                  <i class="fal fa-thumbs-up mocksq rounded fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------->
+    <section class="pricing-table pt-5 pb-5">
+      <div class="container text-center pt-5">
+        <div class="col-xl-12 col-md-12 col-12 col-sm-12 col-lg-12 text-center">
+          <h4>Suitable <b>Plans.</b></h4>
+          <p class="our">Our Pricing</p>
+        </div>
+        <div class="row  ml-5 mr-5">
+          <div class="col-md-5 col-lg-4 mb-4">
+            <header class="header position-relative bg-light">
+              <div
+                class="heading border-style-thin pb-4 pt-4 position-absoulute
+                bg-dark"
+              >
+                <h4 class="text-warning">GOLD</h4>
+                <p class="text-white">Offer Will Be 30 Days Only</p>
+                <hr class="priceline bg-white" />
+                <i class="fal fa-camera-alt fa-lg text-white"></i>
+              </div>
+              <div class="item pt-5 position-relative">
+                <div class="features">
+                  <h6 class="border-bottom pb-2">TEN WEB SITE</h6>
+                  <h6 class="border-bottom pb-2">EIGHTEEN GB STORAGE</h6>
+                  <h6 class="border-bottom pb-2">FIFTEEN DAYS FREE TRAIL</h6>
+                  <h6 class="border-bottom pb-2">UNLIMITED DOMAINS</h6>
+                  <h6 class="border-bottom pb-2">FREE DATABASE</h6>
+                </div>
+                <div class="price pt-4 pb-4">
+                  <h4 class="font-weight-bold">
+                    $39 <b class="month">/MONTH</b>
+                  </h4>
+                </div>
+                <button class="btn btn-block btn-outline-dark" type="submit">
+                  <b>START PACKAGE</b>
+                </button>
+              </div>
+            </header>
+          </div>
+          <div class="col-md-5 col-lg-4 mb-4">
+            <header class="header position-relative bg-light">
+              <div class="heading pb-4 pt-4 position-absoulute bg-orange">
+                <h4 class="text-dark">SILVER</h4>
+                <p class="text-white">Offer Will Be 30 Days Only</p>
+                <hr class="priceline bg-white" />
+                <i class="fal fa-award fa-lg "></i>
+              </div>
+              <div class="item pt-5">
+                <div class="features">
+                  <h6 class="border-bottom pb-2">TEN WEB SITE</h6>
+                  <h6 class="border-bottom pb-2">FIVE GB STORAGE</h6>
+                  <h6 class="border-bottom pb-2">FIFTEEN DAYS FREE TRAIL</h6>
+                  <h6 class="border-bottom pb-2">UNLIMITED DOMAINS</h6>
+                  <h6 class="border-bottom pb-2">FREE ELEMENTS</h6>
+                </div>
+                <div class="price pt-4 pb-4">
+                  <h4 class="font-weight-bold">
+                    $59 <b class="month">/MONTH</b>
+                  </h4>
+                </div>
+                <button
+                  class="btn btn-block btn-outline-warning bg-orange text-white"
+                  type="submit"
+                >
+                  <b>START PACKAGE</b>
+                </button>
+              </div>
+            </header>
+          </div>
+          <div class="col-md-5 col-lg-4 mb-4">
+            <header class="header position-relative bg-light">
+              <div class="heading pb-4 pt-4 position-absoulute bg-dark">
+                <h4 class="text-warning">BRONZE</h4>
+                <p class="text-white">Offer Will Be 30 Days Only</p>
+                <hr class="priceline bg-white" />
+                <i class="fal fa-unlock text-white"></i>
+              </div>
+              <div class="item pt-5 position-relative">
+                <div class="features">
+                  <h6 class="border-bottom pb-2">THREE WEB SITE</h6>
+                  <h6 class="border-bottom pb-2">TWO GB STORAGE</h6>
+                  <h6 class="border-bottom pb-2">FIFTEEN DAYS FREE TRAILE</h6>
+                  <h6 class="border-bottom pb-2">UNLIMITED DOMAINS</h6>
+                  <h6 class="border-bottom pb-2">FREE DATABASE</h6>
+                </div>
+                <div class="price pt-4 pb-4">
+                  <h4 class="font-weight-bold">
+                    $89 <b class="month">/MONTH</b>
+                  </h4>
+                </div>
+                <button class="btn btn-block btn-outline-dark" type="submit">
+                  <b>START PACKAGE</b>
+                </button>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------->
+    <header>
+      <div
+        id="carouselContent"
+        class="carousel slide bg-orange"
+        data-ride="carousel"
+        data-interval="false"
+      >
+        <ol class="carousel-indicators whiteindicators">
+          <li
+            data-target="#carouselContent"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselContent" data-slide-to="1"></li>
+          <li data-target="#carouselContent" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner carousel-2" role="listbox">
+          <div class="carousel-item  active text-center">
+            <div class="container ">
+              <div class="row ">
+                <div class="col-md-12">
+                  <h5><b>JOHN TYLOR</b></h5>
+                </div>
+                <div class="col-md-12 mb-2 ">
+                  <b>Architect</b>
+                </div>
+                <div class="container imagepin position-relative">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 498.923 498.923"
+                    style="enable-background:new 0 0 498.923 498.923;"
+                    xml:space="preserve"
+                  >
+                    <path
+                      style="fill:white;"
+                      d="M249.462,0C151.018,0,70.951,80.106,70.951,178.511c0,92.436,133.617,192.453,172.248,315.948
+                      c0.83,2.667,3.322,4.484,6.116,4.465c2.804-0.039,5.256-1.876,6.048-4.563c37.478-126.533,172.6-223.307,172.609-315.869
+                      C427.963,80.106,347.886,0,249.462,0z
+                      M249.462,313.925c-77.184,0-139.987-62.812-139.987-139.987
+                      c0-77.184,62.803-139.987,139.987-139.987c77.165,0,139.977,62.803,139.977,139.987
+                      C389.439,251.113,326.626,313.925,249.462,313.925z"
+                    />
+                  </svg>
+                  <img src="Images/logo.png" class="logo position-absolute" />
+                </div>
+                <div class="col-md-12 mt-3">
+                  <i class="fas fa-quote-left fa-2x text-white blur-text"></i>
+                </div>
+                <div class="col-md-12  col-12 text-white mt-2">
+                  The mate was a mightly sailin' man the Skipper brace and
+                  sure.Five passengers set sail that day for a three hour tour a
+                  three hour four.That this group would somehow form a family
+                  that's the way all became the Brady Bunch. Its mission to
+                  explore strange new worlds
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 ">
+                  <h5><b>JOHN TYLOR</b></h5>
+                </div>
+                <div class="col-md-12  mb-2">
+                  <b>Architect</b>
+                </div>
+                <div class="container imagepin position-relative">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 498.923 498.923"
+                    style="enable-background:new 0 0 498.923 498.923;"
+                    xml:space="preserve"
+                  >
+                    <path
+                      style="fill:white;"
+                      d="M249.462,0C151.018,0,70.951,80.106,70.951,178.511c0,92.436,133.617,192.453,172.248,315.948
+                        c0.83,2.667,3.322,4.484,6.116,4.465c2.804-0.039,5.256-1.876,6.048-4.563c37.478-126.533,172.6-223.307,172.609-315.869
+                        C427.963,80.106,347.886,0,249.462,0z
+                        M249.462,313.925c-77.184,0-139.987-62.812-139.987-139.987
+                        c0-77.184,62.803-139.987,139.987-139.987c77.165,0,139.977,62.803,139.977,139.987
+                        C389.439,251.113,326.626,313.925,249.462,313.925z"
+                    />
+                  </svg>
+                  <img src="Images/logo.png" class="logo position-absolute" />
+                </div>
+                <div class="col-md-12 col-12 mt-3">
+                  <i class="fas fa-quote-left fa-2x text-white blur-text"></i>
+                </div>
+                <div class="col-md-12 col-12 text-white mt-2">
+                  The mate was a mightly sailin' man the Skipper brace and
+                  sure.Five passengers set sail that day for a three hour tour a
+                  three hour four.That this group would somehow form a family
+                  that's the way all became the Brady Bunch. Its mission to
+                  explore strange new worlds
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <div class="container">
+              <div class="row ">
+                <div class="col-md-12 col-12">
+                  <h5><b>JOHN TYLOR</b></h5>
+                </div>
+                <div class="col-md-12 col-12 mb-2">
+                  <b>Architect</b>
+                </div>
+                <div class="container imagepin position-relative">
+                  <svg
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 498.923 498.923"
+                    style="enable-background:new 0 0 498.923 498.923;"
+                    xml:space="preserve"
+                  >
+                    <path
+                      style="fill:white;"
+                      d="M249.462,0C151.018,0,70.951,80.106,70.951,178.511c0,92.436,133.617,192.453,172.248,315.948
+                          c0.83,2.667,3.322,4.484,6.116,4.465c2.804-0.039,5.256-1.876,6.048-4.563c37.478-126.533,172.6-223.307,172.609-315.869
+                          C427.963,80.106,347.886,0,249.462,0z
+                          M249.462,313.925c-77.184,0-139.987-62.812-139.987-139.987
+                          c0-77.184,62.803-139.987,139.987-139.987c77.165,0,139.977,62.803,139.977,139.987
+                          C389.439,251.113,326.626,313.925,249.462,313.925z"
+                    />
+                  </svg>
+                  <img src="Images/logo.png" class="logo position-absolute" />
+                </div>
+                <div class="col-md-12 col-12 mt-3">
+                  <i class="fas fa-quote-left fa-2x text-white blur-text"></i>
+                </div>
+                <div class="col-md-12 col-12 text-white mt-2">
+                  The mate was a mightly sailin' man the Skipper brace and
+                  sure.Five passengers set sail that day for a three hour tour a
+                  three hour four.That this group would somehow form a family
+                  that's the way all became the Brady Bunch. Its mission to
+                  explore strange new worlds
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselContent"
+          role="button"
+          data-slide="prev"
+        ></a>
+        <a
+          class="carousel-control-next"
+          href="#carouselContent"
+          role="button"
+          data-slide="next"
+        ></a>
+      </div>
+    </header>
+    <!----------------------------->
+    <div class="container mt-5 mb-5 pt-5" id="blog">
+      <div class="row">
+        <div class="col-xl-12 text-center">
+          <h4>Latest <b>News.</b></h4>
+          <p class="who">Our Blog</p>
+        </div>
+      </div>
+    </div>
+    <header class="mr-5 ml-5">
+      <div
+        id="multi-item-example"
+        class="carousel slide carousel-multi-item"
+        data-ride="carousel"
+      >
+        <!--Indicators-->
+        <ol class="carousel-indicators orangeli   mt-5 pt-5">
+          <li
+            data-target="#multi-item-example"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#multi-item-example" data-slide-to="1"></li>
+          <li data-target="#multi-item-example" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner pb-5" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <div class="container mb-5">
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">24</div>
+                            <div class="month">Oct</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">18</div>
+                            <div class="month">Mar</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">27</div>
+                            <div class="month">Jun</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.First slide-->
+
+          <!--Second slide-->
+          <div class="carousel-item">
+            <div class="container mb-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date ">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Second slide-->
+
+          <!--Third slide-->
+          <div class="carousel-item">
+            <div class="container mb-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6 m-auto">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class="date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class=" date">15</div>
+                            <div class=" month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+
+                    <div class="card col-md-6 m-auto p-0">
+                      <figure class="figure">
+                        <img
+                          class="card-img-top"
+                          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                          alt="Card image cap"
+                        />
+                        <figcaption class="datetime">
+                          <div class="rounded">
+                            <div class=" date">15</div>
+                            <div class="month">Jan</div>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div class="card-body col-md-6">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <button class=" readmoreor arrow text-warning border-0">
+                        READMORE
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>       
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#multi-item-example"
+          role="button"
+          data-slide="prev"
+        ></a>
+        <a
+          class="carousel-control-next"
+          href="#multi-item-example"
+          role="button"
+          data-slide="next"
+        ></a>
+      </div>
+    </header>
+    <div class="container-fluid bg-light">
+      <div class="container mt-5 pt-5 pb-5">
+        <div class="row justify-content-center ml-5 mr-5">
+          <div class="col-md-3 col-12 border-right">
+            <div class="row">
+              <div class="col-md-2 col-5 mb-2 pt-2">
+                <i class="fal fa-lightbulb fa-2x text-warning"></i>
+              </div>
+              <div class="col-md-10 col-7">
+                <h4 class="m-0">135</h4>
+                <h6 class="blur-text">Completed Projects</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12 border-right">
+            <div class="row">
+              <div class="col-md-2 col-5 mb-2 pt-2">
+                <i class="fal fa-headphones-alt fa-2x text-warning"></i>
+              </div>
+              <div class="col-md-10 col-7">
+                <h4 class="m-0">248</h4>
+                <h6 class="blur-text">Running Projects</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-12 border-right">
+            <div class="row">
+              <div class="col-md-2 col-5 mb-2 pt-2">
+                <i class="fal fa-user fa-2x text-warning"></i>
+              </div>
+              <div class="col-md-10 col-7">
+                <h4 class="m-0">234</h4>
+                <h6 class="blur-text m-0">Satisfied Clients</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-12">
+            <div class="row">
+              <div class="col-md-2 col-5 mb-2 pt-2">
+                <i class="fal fa-coffee fa-2x text-warning"></i>
+              </div>
+              <div class="col-md-10 col-7">
+                <h4 class="m-0">168</h4>
+                <h6 class="blur-text">Cups Of Coffee</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="pages">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div
+            class="row pt-5 bg-orange justify-content-center
+                  align-items-center text-center"
+          >
+            <div class="col mt-5 pt-5 mb-5 pb-5 pl-5 pr-5 ml-5 mr-4">
+              <h5>
+                SMALL DESCTIPTION ABOUT <u class="text-white">JAMES RON</u>
+              </h5>
+              <hr class="priceline bg-white" />
+              <p class="text-white">
+                On the most sensational inspirational celebrational
+                Muppetational... This is what we call the Muppet Show.No phone
+                no lights no motor car not a single luxury.
+              </p>
+              <b>Ceo & Founder</b>
+              <div class="mb-3 mt-1 socialmedia">
+                <a href="#">
+                  <i class="fab fa-facebook-f text-white"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter text-white pl-3"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in text-white pl-3"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-tumblr text-white pl-3"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-vimeo-v text-white pl-3"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-pinterest-p text-white pl-3"></i>
+                </a>
+              </div>
+              <div class="mb-2">
+                <a href="#">
+                  <i class="fal fa-map-marker-alt circle bg-white"></i>
+                </a>
+                <a href="#">
+                  <i class="far fa-phone bg-dark fa-flip-horizontal circle"></i>
+                </a>
+                <a href="#">
+                  <i class="fal fa-envelope circle bg-white"></i>
+                </a>
+              </div>
+              <div>
+                <b>+(11)123 456 7890</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <header class="ml-5 mr-5">
+              <div class="container mt-5 mb-5 pt-5">
+                <div class="row">
+                  <div class="col-xl-12 col-12 mt-3 text-center">
+                    <h4>Experience <b>Creaters</b></h4>
+                    <p class="who">Our Team</p>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="horiz-item-example"
+                class="carousel slide carousel-multi-item"
+                data-ride="carousel"
+              >
+                <!--Indicators-->
+                <ol class="carousel-indicators orangeli mt-5 pt-5">
+                  <li
+                    data-target="#horiz-item-example"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#horiz-item-example" data-slide-to="1"></li>
+                  <li data-target="#horiz-item-example" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner pb-5" role="listbox">
+                  <!--First slide-->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 col-xl-4 col-12 mb-2 ">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-lg-4 col-xl-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--FIRST SLIDE END-->
+                  <!---SECOND SLIDE-->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!---SECOND SLIDE END-->
+                  <!--- THIRD SLIDE-->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-12 col-lg-4 col-12 mb-2">
+                        <div
+                          class=" img-container position-relative  d-inline-flex align-items-center justify-content-center"
+                        >
+                          <div
+                            class="positioning position-absolute bg-light p-2"
+                          >
+                            James Ron <i class="fal fa-link circle3"></i>
+                          </div>
+
+                          <img
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- THIRD SLIDE END-->
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#horiz-item-example"
+                role="button"
+                data-slide="prev"
+              ></a>
+              <a
+                class="carousel-control-next"
+                href="#horiz-item-example"
+                role="button"
+                data-slide="next"
+              ></a>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light" id="contactus">
+      <div class="container pb-5 pt-5">
+        <div class="row pr-5 pl-5 ml-5 mr-5 pt-4 pb-4">
+          <div class="col">
+            <img src="Images/1ph.png" class="img-fluid photos" />
+          </div>
+          <div class="w-100 d-block d-md-none"></div>
+          <div class="col">
+            <img src="Images/2ph.png" class="img-fluid photos" />
+          </div>
+          <div class="w-100 d-block d-md-none"></div>
+
+          <div class="col">
+            <img src="Images/3ph.png" class="img-fluid photos" />
+          </div>
+          <div class="w-100 d-block d-md-none"></div>
+          <div class="col">
+            <img src="Images/4ph.png" class="img-fluid photos" />
+          </div>
+          <div class="w-100 d-block d-md-none"></div>
+          <div class="col">
+            <img src="Images/5ph.png" class="img-fluid photos" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark pt-5">
+      <div class="row pl-4 pr-4 ml-4 mr-4">
+        <div class="col-lg-5  col-xl-5 col-md-4 col-10">
+          <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+            <h3 class="text-warning"><b>Max Studio.</b></h3>
+          </div>
+          <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+            <p class="text-white mt-4">
+              Explore strange new worlds to seek out new life and new
+              civilizations to boldly gone where no man goes before
+            </p>
+          </div>
+          <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+            <div class="mb-2">
+              <div class="row">
+                <div class="col-xl-2">
+                  <a href="#">
+                    <i class="fal fa-map-marker-alt circle2 bg-none"></i>
+                  </a>
+                </div>
+                <div class="col-xl-10 text-white">
+                  Collins Street West,
+                  <div>121 King Street, Melbourne</div>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-xl-2">
+                  <a href="#">
+                    <i
+                      class="far fa-phone bg-none fa-flip-horizontal
+                          circle2"
+                    ></i>
+                  </a>
+                </div>
+                <div class="col-xl-10 d-flex align-items-center text-white">
+                  +(11)123 456 7890
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-xl-2">
+                  <a href="#">
+                    <i class="fal fa-envelope circle2 bg-none"></i>
+                  </a>
+                </div>
+                <div class="col-xl-10 d-flex align-items-center text-white">
+                  info@maxstudio.com
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-xl-4 col-md-4 col-12 col-sm-12 ">
+          <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+            <h6 class="text-warning "><b>POPULAR LINKS</b></h6>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-5 col-12">
+              <ul class="uordersq ">
+                <li class="text-warning">
+                  <a href="#" class="text-white">ABOUT US </a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">SERVICES</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">LATEST WORKS </a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">TEAM</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">CLIENTS</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">BLOG </a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">TESTIMONIALS </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7 col-12">
+              <ul class="uordersq">
+                <li class="text-warning">
+                  <a href="#" class="text-white">CONTACT US</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">PRIVACY</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">POLICY </a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">TERMS & CONDITIONS</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">FAQ</a>
+                </li>
+                <li class="text-warning">
+                  <a href="#" class="text-white">404 </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-xl-3 col-md-4 col-12 ">
+          <div class="col-xl-12 col-md-12 col-lg-12 col-12">
+            <h6 class="text-warning mb-4"><b>START A PROJECT TOGETHER</b></h6>
+          </div>
+          <form>
+            <div class="col-md-12 col-lg-12 col-xl-12">
+              <input
+                type="text"
+                class="pl-2 pt-2 pb-2 mb-2 rounded text-white  
+                    border-0"
+                id="field"
+                placeholder="Your Name*"
+                required
+              />
+            </div>
+            <div class="col-md-12">
+              <input
+                type="email"
+                class="pl-2 pt-2 pb-2 mb-2 rounded text-white  
+                    border-0"
+                id="field"
+                placeholder="Your Email*"
+                required
+              />
+            </div>
+            <div class="col-md-12 mb-2">
+              <textarea
+                class="pl-2 pt-2 rounded area text-white border-0"
+                id="field"
+                placeholder="Your Message Here..."
+                required
+              ></textarea>
+            </div>
+            <div class="col-md-12">
+              <button
+                class="btn btn-block bg-orange btn-outline-dark"
+                type="submit"
+              >
+                <b>LET'S START</b>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5">
+        <div class="col-md-12 col-12 pb-2 reserved text-white">
+          &copy;MaxStudio2016. All Rights Reserved
+        </div>
+        <div class="col-md-12 col-12 pb-3 mt-1 socialmedia">
+          <a href="#">
+            <i class="fab fa-facebook-f text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter text-white pl-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in text-white pl-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-tumblr text-white pl-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-vimeo-v text-white pl-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-pinterest-p text-white pl-3"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
