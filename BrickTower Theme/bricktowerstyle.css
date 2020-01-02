@@ -1,0 +1,138 @@
+.small-text {
+  font-size: 13px;
+}
+.highquality {
+  font-size: 11px;
+}
+
+.bricktower {
+  font-size: 22px;
+}
+.dropdown-menu {
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.navbar-nav .dropdown:hover > .dropdown-menu {
+  display: list-item;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: orange;
+  color: white;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.shrinkbar {
+  background-color: black;
+}
+
+.nav-link {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.nav-link:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 7;
+  width: 0;
+  bottom: 45;
+  background: orange;
+  height: 1px;
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.nav-link:hover:after {
+  right: 0;
+  right: auto;
+  width: 88%;
+}
+img {
+  width: 100%;
+}
+.line {
+  width: 50px;
+  background: orange;
+  height: 3px;
+}
+.hovereffect {
+  font-weight: bold;
+  font-size: 14px;
+}
+.hovereffect:hover {
+  color: orange;
+}
+.bordered {
+  border: solid 1px;
+  border-color: white;
+  background: orange;
+  color: white;
+}
+.hoverup {
+  overflow: hidden;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.hoverup:hover {
+  background: orange;
+  margin-top: -20px;
+}
+
+.readmore {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-out;
+}
+
+.hoverup:hover .readmore {
+  opacity: 1;
+  visibility: visible;
+}
+
+.headersize {
+  font-size: 16.8px;
+  font-weight: bold;
+}
+
+.hoverread:hover {
+  color: orange;
+}
+.plus {
+  visibility: hidden;
+}
+.hoverimage img {
+  transform: scale(1.01);
+}
+.hoverimage:hover img {
+  -webkit-filter: brightness(20%);
+  filter: brightness(20%);
+  transform: scale(1);
+  transition: all 0.2s ease-in;
+}
+.hoverimage:hover .plus {
+  z-index: 10;
+  visibility: visible;
+  color: white;
+}
+.footertext {
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+.hoverzoom i:hover {
+  transform: scale(1.1);
+}
+.hoverbold a:hover {
+  font-weight: bolder;
+  color: black;
+}
