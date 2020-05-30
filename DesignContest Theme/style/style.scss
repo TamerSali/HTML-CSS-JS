@@ -1,0 +1,694 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+$base-color: #ff4444;
+
+@mixin redButton() {
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  background: $base-color;
+  color: white;
+}
+.contact {
+  background: #212121;
+  padding: 12px;
+  color: lightgray;
+  .social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    .column-left {
+      text-align: left;
+      .social-icons {
+        i {
+          padding: 5px;
+          &:hover {
+            color: $base-color;
+          }
+        }
+      }
+    }
+    .column-right {
+      text-align: right;
+      span {
+        padding: 0 5px 0 5px;
+        &:hover {
+          color: $base-color;
+        }
+      }
+      .email {
+        border-right: 1px solid white;
+      }
+      .tel-number {
+        padding-left: 10px;
+      }
+    }
+  }
+}
+//Image Section
+.head-image {
+  background: url("../resources/cover-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0 80px 0;
+  .image-elements {
+    text-transform: uppercase;
+    padding-top: 50px;
+    h1 {
+      padding-bottom: 40px;
+    }
+    button {
+      @include redButton();
+    }
+    p {
+      padding-top: 20px;
+      color: $base-color;
+    }
+    span {
+      color: black;
+      padding-bottom: 30px;
+    }
+  }
+}
+// What do you need Section
+.needs {
+  padding: 40px;
+  text-align: center;
+  h2 {
+    padding-bottom: 20px;
+  }
+  hr {
+    width: 4%;
+    border: 2px solid;
+    border-color: $base-color;
+    margin: auto;
+  }
+  p {
+    padding: 40px 0 20px 0;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    div {
+      text-transform: uppercase;
+    }
+    .box {
+      padding: 30px;
+      text-align: center;
+      hr {
+        border: 1px solid;
+        border-color: gray;
+      }
+
+      p {
+        padding: 20px;
+      }
+      &.bg-color {
+        background-color: #f7f7f7;
+        border: 1px solid lightgray;
+      }
+      &.shadowed {
+        box-shadow: -2px -1px 18px 0px rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+  button {
+    @include redButton();
+  }
+}
+// Banner Section
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  padding: 40px;
+  text-align: center;
+  background: url("../resources/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    padding-bottom: 20px;
+    color: white;
+  }
+  div {
+    hr {
+      width: 10%;
+      border: 1px solid;
+      border-color: $base-color;
+      margin: auto;
+    }
+    p {
+      padding-top: 20px;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+}
+
+//Graphic Design Made Easy Section
+.grapic-design {
+  text-align: center;
+  padding: 40px;
+  h2 {
+    padding-bottom: 20px;
+  }
+  hr {
+    width: 4%;
+    border: 2px solid;
+    border-color: $base-color;
+    margin: auto;
+  }
+  p {
+    padding: 40px 0 20px 0;
+  }
+  .workdone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-top: 50px;
+    .needworkdone {
+      text-align: left;
+      h3 {
+        text-transform: uppercase;
+      }
+      .info {
+        display: grid;
+        grid-template-columns: 60px auto;
+        grid-gap: 20px;
+        padding-top: 70px;
+      }
+      p {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+//Examples of Graphic Design Section
+
+.examples {
+  background: #ededed;
+  padding: 40px;
+  text-align: center;
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h2 {
+      text-align: left;
+    }
+    div {
+      text-align: right;
+      display: block;
+      i {
+        background-color: black;
+        color: white;
+        padding: 7px;
+      }
+      i:nth-child(2) {
+        background-color: $base-color;
+      }
+    }
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    .images {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+      img {
+        width: 100%;
+      }
+      .img-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: $base-color;
+        visibility: hidden;
+      }
+      .img-text {
+        position: absolute;
+        visibility: hidden;
+      }
+      div {
+        width: 100%;
+        font-weight: bold;
+        font-size: 11px;
+        background-color: $base-color;
+        color: white;
+        padding: 10px;
+        span {
+          padding: 10px 20px 10px 20px;
+        }
+        span:nth-child(2) {
+          border-left: 1px solid white;
+        }
+      }
+
+      &:hover {
+        .img-icon {
+          visibility: visible;
+        }
+        .img-text {
+          visibility: visible;
+        }
+        img {
+          -webkit-filter: brightness(20%);
+          filter: brightness(20%);
+        }
+      }
+    }
+  }
+  button {
+    @include redButton();
+  }
+}
+
+//OUR TESTIMONIALS SECTION
+.testimonials {
+  padding: 40px;
+  text-align: center;
+  h2 {
+    padding-bottom: 20px;
+  }
+  hr {
+    width: 4%;
+    border: 2px solid;
+    border-color: $base-color;
+    margin: auto;
+  }
+  p {
+    padding: 40px 0 40px 0;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    .column-left {
+      div {
+        background: #ededed;
+        padding: 30px;
+        margin-bottom: 20px;
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 95%,
+          55% 95%,
+          51% 100%,
+          47% 95%,
+          0 95%
+        );
+
+        p:nth-child(2) {
+          color: gray;
+          i:nth-child(1),
+          i:nth-child(2),
+          i:nth-child(3) {
+            color: $base-color;
+          }
+        }
+      }
+      strong {
+        text-transform: uppercase;
+      }
+    }
+    .column-right {
+      div {
+        background: #ededed;
+        padding: 30px;
+        margin-bottom: 20px;
+
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 95%,
+          55% 95%,
+          51% 100%,
+          47% 95%,
+          0 95%
+        );
+
+        p:nth-child(2) {
+          color: gray;
+          i {
+            color: $base-color;
+          }
+        }
+      }
+      strong {
+        text-transform: uppercase;
+      }
+    }
+  }
+  .sliders {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    i {
+      background-color: black;
+      color: white;
+      padding: 7px;
+    }
+    i:nth-child(2) {
+      background-color: $base-color;
+    }
+  }
+}
+
+//Partners section
+.partners {
+  background: #ededed;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 70%;
+    margin: auto;
+    filter: brightness(30%);
+    &:hover {
+      filter: brightness(100%);
+      transform: scale(1.1);
+      transition: all ease-out 0.1s;
+    }
+  }
+}
+// Coupon Section
+
+.coupon {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 40% 50% 10%;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  .col-1 {
+    h4 {
+      span {
+        color: $base-color;
+      }
+    }
+  }
+  .col-2 {
+    input {
+      padding: 10px;
+      width: 100%;
+      border: none;
+    }
+  }
+  .col-3 {
+    text-align: right;
+    button {
+      border: 1px solid transparent;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 15px 10px 15px;
+      background: $base-color;
+      color: white;
+    }
+  }
+}
+// quicklinks, account, about section
+.quicklinks {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 30% 20% 20% 30%;
+  grid-gap: 10px;
+  background-color: #ededed;
+  .designcontest {
+    img {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 60px;
+    }
+    div {
+      i {
+        border: 1px solid lightgrey;
+        cursor: pointer;
+        padding: 5px;
+        margin-right: 5px;
+        &:hover {
+          background-color: $base-color;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .links {
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    hr {
+      width: 20%;
+      border: 2px solid $base-color;
+      margin-bottom: 15px;
+    }
+    .list {
+      p {
+        cursor: pointer;
+
+        margin-bottom: 20px;
+        border-bottom: 1px solid lightgray;
+        i {
+          vertical-align: middle;
+          font-size: 7px;
+          padding-right: 5px;
+          margin-top: -5px;
+        }
+        &:hover {
+          color: $base-color;
+        }
+      }
+    }
+  }
+  .myaccount {
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    hr {
+      width: 20%;
+      border: 2px solid $base-color;
+      margin-bottom: 15px;
+    }
+    .prop {
+      p {
+        cursor: pointer;
+        margin-bottom: 20px;
+        border-bottom: 1px solid lightgray;
+        i {
+          vertical-align: middle;
+          font-size: 7px;
+          padding-right: 5px;
+          margin-top: -5px;
+        }
+        &:hover {
+          color: $base-color;
+        }
+      }
+    }
+  }
+  .newsletter {
+    h2 {
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    hr {
+      width: 13%;
+      border: 2px solid $base-color;
+      margin-bottom: 15px;
+    }
+    input[type="text"] {
+      background-color: #ededed;
+      padding: 10px;
+      width: 100%;
+      outline: none;
+      border: 1px solid lightgrey;
+      margin: 10px 0 10px 0;
+      &:focus {
+        background-color: white;
+      }
+      &:hover {
+        background-color: white;
+      }
+    }
+    input[type="email"] {
+      background-color: #ededed;
+      padding: 10px;
+      width: 100%;
+      outline: none;
+      border: 1px solid lightgrey;
+      &:focus {
+        background-color: white;
+      }
+      &:hover {
+        background-color: white;
+      }
+    }
+    button {
+      margin-top: 20px;
+      background-color: $base-color;
+      color: white;
+      padding: 15px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+}
+
+//page-end section
+
+.page-end {
+  background-color: rgb(82, 82, 82);
+  color: lightgray;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  .menu {
+    text-align: right;
+    span {
+      cursor: pointer;
+      padding-right: 5px;
+      &:hover {
+        color: $base-color;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* For tablets */
+  .social {
+    grid-template-columns: 1fr !important;
+    .column-left {
+      text-align: center !important;
+    }
+    .column-right {
+      text-align: center !important;
+    }
+  }
+  .wrapper {
+    grid-template-columns: 1fr 1fr !important;
+    grid-gap: 10px;
+  }
+  .banner {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .workdone {
+    grid-template-columns: 1fr !important;
+  }
+  .columns {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .coupon {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    .col-3 {
+      text-align: center;
+    }
+  }
+  .quicklinks {
+    grid-template-columns: 1fr;
+    .designcontest {
+      margin-bottom: 40px;
+    }
+  }
+  .page-end {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+
+    .rights {
+      text-align: center;
+    }
+    .menu {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* all mobile resolutions */
+  .social {
+    grid-template-columns: 1fr !important;
+    .column-left {
+      text-align: center !important;
+    }
+    .column-right {
+      text-align: center !important;
+    }
+  }
+  .wrapper {
+    grid-template-columns: 1fr !important;
+    grid-gap: 10px;
+  }
+  .banner {
+    grid-template-columns: 1fr !important;
+  }
+  .workdone {
+    grid-template-columns: 1fr !important;
+  }
+  .columns {
+    grid-template-columns: 1fr !important;
+  }
+  .container {
+    grid-template-columns: 1fr !important;
+  }
+  .partners {
+    grid-template-columns: 1fr !important;
+    img {
+      margin: auto;
+    }
+  }
+  .coupon {
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    .col-3 {
+      text-align: center;
+    }
+  }
+  .quicklinks {
+    grid-template-columns: 1fr;
+    .designcontest {
+      margin-bottom: 40px;
+    }
+  }
+  .page-end {
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    .rights {
+      text-align: center;
+    }
+    .menu {
+      text-align: center;
+    }
+  }
+}
