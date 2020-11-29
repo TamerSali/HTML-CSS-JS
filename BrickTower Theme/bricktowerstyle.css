@@ -1,6 +1,10 @@
 .small-text {
   font-size: 13px;
-}
+ }
+ .small-text.trends{
+   background-color: rgba(0, 0, 0, 0.8);
+   margin-right: 4px;
+ }
 .highquality {
   font-size: 11px;
 }
@@ -56,6 +60,10 @@
 img {
   width: 100%;
 }
+.our-services{
+text-shadow:  -10px -2px 10px black;
+}
+
 .line {
   width: 50px;
   background: orange;
@@ -99,7 +107,13 @@ img {
 .headersize {
   font-size: 16.8px;
   font-weight: bold;
-}
+ }
+ .headersize.trends{
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 50%;
+   text-shadow: 0 0 5px black;
+   margin-right: 4px;
+ }
 
 .hoverread:hover {
   color: orange;
